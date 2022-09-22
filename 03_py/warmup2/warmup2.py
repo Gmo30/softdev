@@ -62,7 +62,7 @@ def array123(nums):
       return True
     i += 1
   return False
-array123([1, 1, 2, 3, 1])
+print(array123([1, 1, 2, 3, 1]))
 
 def string_match(a, b):
   count = 0
