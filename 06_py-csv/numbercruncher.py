@@ -1,3 +1,14 @@
+"""
+MOLDY MEATS
+Roster + Duckies: Gordon Mo, Faiyaz Rafee, Blooman, Horizon
+06_py-csv
+time spent:1 hr
+Disco: rsplit() splits a string from the right.
+QCC:
+How this script works: We open the csv file. Then we convert it into
+a string. Using this string we split it based on "\n" and commas.
+Then we added the value to its respective key in the dictionary.
+"""
 import random
 occupations_file = open("occupations.csv", "r")
 content = occupations_file.read()
