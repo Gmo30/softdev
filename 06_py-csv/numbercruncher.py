@@ -10,6 +10,7 @@ a string. Using this string we split it based on "\n" and commas.
 Then we added the value to its respective key in the dictionary.
 """
 import random
+
 occupations_file = open("occupations.csv", "r")
 content = occupations_file.read()
 #print(content)
@@ -31,4 +32,13 @@ for i in range(2,len(temp)-2,2):
     library["Job Class"].append(temp[i])
     library["Percentage"].append(float(temp[i+1]))
     
-print(library)
+#print(library)
+
+
+options = library["Job Class"]
+option_weights = library["Percentage"]
+print(random.choices(options, weights=option_weights))
+
+#print(library["Job Class"])
+
+
