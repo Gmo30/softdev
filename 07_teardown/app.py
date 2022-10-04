@@ -1,5 +1,9 @@
-# your heading here
+"""
+Moldy Meats: Gordon Mo, Faiyaz Rafee
+10/03/2022
+07_teardown
 
+"""
 from flask import Flask
 
 app = Flask(__name__) # Q0: Where have you seen similar syntax in other langs?
@@ -15,12 +19,12 @@ app.run()  # Q5: Where have you seen similar constructs in other languages?
 '''
 DISCO:
 QCC:
-0. 
-1. 
-2. 
-3. 
-4. 
-5. 
+0. We have seen similar syntax in java classes
+1. Division symbol, similar things being compared
+2. Print in the shell maybe?
+3. app
+4. Appear in browser, we know because we ran the code and clicked on link.
+5. We have seen it in java
 ...
 INVESTIGATIVE APPROACH:
 <Your concise summary of how
