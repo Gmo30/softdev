@@ -4,9 +4,7 @@ SoftDev
 v1 -- Intro to Flask
 Time: 0.1 hr
 
-DISCO:
-
-QCC:
+PREDICTION:
 We think that it will just return an ERROR. There will be nothing printed
 and the website will be generated but we won't be given the link in terminal.
 
@@ -23,4 +21,3 @@ def hello_world():
     return "No hablo queso!"
 
 app.run()
-
