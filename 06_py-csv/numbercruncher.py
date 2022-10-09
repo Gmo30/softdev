@@ -38,7 +38,17 @@ for i in range(2,len(temp)-2,2):
 options = library["Job Class"]
 option_weights = library["Percentage"]
 print(random.choices(options, weights=option_weights))
-
+print(library["Job Class"][1])
 #print(library["Job Class"])
 
+def job_lister():
+    i = 0
+    list_of_occupations = ""
+    while i < len(library["Job Class"]):
+        list_of_occupations += library["Job Class"][i] + "<br/>"
+        i += 1
+    return list_of_occupations
 
+print(job_lister())
+job_lister()
+print(job_lister())
