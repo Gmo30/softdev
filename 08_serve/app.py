@@ -1,10 +1,18 @@
 '''
 Holi Goramali: Erica (Hugo), Gordon (The Blueman)
 Soft Dev
-K08 Serve - Creating Flask 
+K08 Serve - Creating Flask
 2022-10-07
-time spent:
+time spent: 1.5 hr
 
+DISCO:
+1. <br/> allows a line break
+2. app.debug enable auto-reload upon code change
+3. @app.route() must be after all the functions or else the site will not generate
+
+QCC:
+How can you change up the color generated on the site?
+Is there a way to add a background to the site?
 '''
 import random
 from flask import Flask
@@ -28,14 +36,14 @@ for i in range(len(new_content)-1):
 for i in range(2,len(temp)-2,2):
     library["Job Class"].append(temp[i])
     library["Percentage"].append(float(temp[i+1]))
-        
-def choose_occupations():
+
+def choose_occupations(): #chooses the occupation based on the weight
     options = library["Job Class"]
     option_weights = library["Percentage"]
     o = (random.choices(options, weights=option_weights))
     return o
 
-def job_lister():
+def job_lister(): #lists all the jobs neatly through line breaks
     jobs = ""
     for values in library["Job Class"]:
         jobs += values + "<br/>"
