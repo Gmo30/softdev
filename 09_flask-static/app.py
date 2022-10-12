@@ -5,7 +5,7 @@ K09 Flask-Static
 2022-10-11
 time spent:
 
-DISCO:
+DISCO: The web server serves the text in html.
 
 QCC:
 '''
