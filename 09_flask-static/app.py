@@ -6,7 +6,7 @@ K09 Flask-Static
 time spent:
 
 DISCO: The web server serves the text in html.
-
+<head> text here </head> changes the name of the tab to whatver is inside head.
 QCC:
 '''
 
