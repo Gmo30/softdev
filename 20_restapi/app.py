@@ -6,14 +6,20 @@ K20 -- REST API
 time spent
 """
 
-from flask import flask
-from flask import render_template
+from flask import Flask
+app = Flask(__name__)
+import requests
 
-app = flask(__name__)
+key = open("key_nasa.txt").read()
+urlString = "https://api.nasa.gov/planetary/apod?api_key=" + key
+res = requests.get(urlString)
+json = res.json()
+print(json["url"])
 
-@app.route("/")
-def display():
-    return render_template('main.html')
+# @app.route("/")
+# def picture():
+#     key = open("key\_nasa.txt").read()
+#     res = requests.get('https://api.nasa.gov/planetary/apod?api_key=' + key)
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
