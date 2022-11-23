@@ -1,7 +1,8 @@
 # Space Butterflies: Gordon Mo, Harry Zhu
 Softdev\
 K20 -- REST APIs\
-2022-11-21time spent: 1.5 hours
+2022-11-21\
+time spent: 1.5 hours
 
 ### QCC: 
 - Can you use post?
