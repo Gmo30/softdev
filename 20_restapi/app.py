@@ -19,11 +19,12 @@ json = res.json()
 #print(res.text) #str type
 #print(json["url"])
 
+
 @app.route("/")
 def picture():
     return render_template('main.html', url = json["url"], explanation = json["explanation"], title = json["title"])
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
-    app.debug = True 
+    app.debug = False 
     app.run()
