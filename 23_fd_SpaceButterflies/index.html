@@ -30,10 +30,20 @@ K20 -- RESTAPIs
       <li><a href="#">Three</a></li>
     </ul>
     </div>
-  <div class="top-bar-right">
     <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
+    <!-- select menu-->
+      <div class="grid-x grid-padding-x">
+    <div class="small-8 cell">
+      <label for="right-label" class="text-right"> Select
+  <select>
+    <option value="starbuck">Starbuck</option>
+    <option value="hotdog">Hot Dog</option>
+  </select>
+</label>
+ <li><input type="search" placeholder="Search"></li>
       <li><button type="button" class="button">Search</button></li>
+</div>
+</div>
     </ul>
   </div>
 </div>
@@ -44,18 +54,20 @@ K20 -- RESTAPIs
     hello
     </p>
 
-<!-- Pagination Bar -->
-<div style="margin-bottom:700px;"></div>
-    <ul class="pagination text-center" role="navigation" aria-label="Pagination" data-page="6" data-total="16">
-      <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
-      <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-      <li><a href="#" aria-label="Page 2">2</a></li>
-      <li><a href="#" aria-label="Page 3">3</a></li>
-      <li class="ellipsis" aria-hidden="true"></li>
-      <li><a href="#" aria-label="Page 9">9</a></li>
-      <li><a href="#" aria-label="Page 10">10</a></li>
-      <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
-    </ul>
+<img class="thumbnail" src="https://placehold.it/850x350">
 
+<!-- no pagination cause one page
+    <div style="margin-bottom:700px;"></div>
+        <ul class="pagination text-center" role="navigation" aria-label="Pagination" data-page="6" data-total="16">
+          <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+          <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+          <li><a href="#" aria-label="Page 2">2</a></li>
+          <li><a href="#" aria-label="Page 3">3</a></li>
+          <li class="ellipsis" aria-hidden="true"></li>
+          <li><a href="#" aria-label="Page 9">9</a></li>
+          <li><a href="#" aria-label="Page 10">10</a></li>
+          <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+        </ul> -->
+    
 </body>
 </html>
