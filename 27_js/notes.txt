@@ -1,22 +1,20 @@
-Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-SoftDev pd0
+Team Yummy Fluffy Goats :: Kevin Wang, Gordon Mo
+SoftDev pd7
 K27 -- Basic functions in JavaScript
-2023-04-03t
+2023-04-04
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____
-* ...
+* Scheme uses prefix notation
+* Scheme uses one big if statement to handle more than one piece of logic
+* JavaScript uses console.log() to print in the console of a html page
+* JavaScript syntax is like a mix of java and python
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Teh whah now?
-* ...
+* How do we run JavaScript outside of a browser?
+* How do we do logic across multiple lines in Scheme?
+* Is JavaScript only for browsers?
 =================================================================
-
-
 
