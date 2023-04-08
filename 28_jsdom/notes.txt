@@ -1,0 +1,22 @@
+Team Yummy Fluffy Goats :: Kevin Wang, Gordon Mo
+SoftDev pd7
+K28 -- Object model in javascript
+2023-04-07
+
+DISCO
+-----------------------------------------------------------------
+* there are three ways to write functions in javascript (variable assignment, function notation, arrow functions)
+* objects look like dictionaries
+* getElementsByTagName returns a HTMLCollection that can be indexed
+* appendChild for adding child elements
+* getElementById selects tags that have a specific id
+* can access the text inside of an html tag using .innerHTML
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Why does doing o.func print out the code for the function?
+* gcd != gcf?
+* what is the best way to write a function?
+=================================================================
+
