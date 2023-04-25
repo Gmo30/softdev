@@ -1,0 +1,17 @@
+Team Yummy Fluffy Goats :: Kevin Wang, Gordon Mo
+SoftDev pd7
+K29 -- Javascript DOM
+2023-04-20
+
+DISCO
+-----------------------------------------------------------------
+* functions are the second argument in event listener
+* don't forget the arrow in arrow functions
+* console tells you when a file you imported doesn't exist (ie. dommy_consolery.js spelled wrong)
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* how do we do this without creating a new element every time?
+=================================================================
+

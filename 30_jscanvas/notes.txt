@@ -1,0 +1,19 @@
+Team Yummy Fluffy Goats :: Kevin Wang, Gordon Mo
+SoftDev pd7
+K30 -- Canvas in javascript
+2023-04-24
+
+DISCO
+-----------------------------------------------------------------
+* (e) is a parameter, e is a MouseEvent
+* offsetX and offsetY are based on the mouse position from where the element starts
+* all elements have .width and .height properties
+* for canvases, we can use getContext to get the context
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* what happens when e is not a MouseEvent, ie a different type of event
+* innerHTML lets us set the text inside of a element
+=================================================================
+
