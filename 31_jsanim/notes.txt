@@ -1,0 +1,17 @@
+Team Moose Kickers:: Gordon Mo, Hui Wang
+SoftDev PD7
+K31 -- Animate in JS
+2023-04-25
+
+DISCO
+-----------------------------------------------------------------
+* requestAnimationFrame(step), where step is a function,
+loops through step until you use cancelAnimationFrame()
+* cancelAnimationFrame() stops animation and requires a ID as a parameter
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* How does declaring requestID = requestAnimationFrame(drawDot) loop the function?
+* Do we need requestID?
+=================================================================

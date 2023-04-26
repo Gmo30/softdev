@@ -1,9 +1,9 @@
 /*
-Team Ringbearers :: Gordon Mo, Hui Wang 
-       SoftDev pd7
-       K31 -- canvas based JS animation
-       2023-04-25t
-       HTML file for JavaScript canvas work
+Team Moose Kickers :: Gordon Mo, Hui Wang 
+SoftDev pd7
+K31 -- canvas based JS animation
+2023-04-25t
+JavaScript canvas work
 */
 
 var c = document.getElementById("playground");
