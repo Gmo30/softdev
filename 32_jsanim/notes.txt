@@ -1,0 +1,18 @@
+Team Fluffy Yummy Goats :: Gordon Mo, Kevin Wang 
+SoftDev pd7
+K32 -- DVD animation
+2023-04-26
+
+DISCO
+-----------------------------------------------------------------
+* you can define a function within a function
+* ctx.drawImage will let you draw image of type image
+* We can add x vectors and y vectors to create diagonal motion
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Why is there a dedicated image object? But other types do not have?
+* Why does drawing an image start from top right corner instead of center?
+* Why dooes preventDefault() break drawDot? 
+=================================================================
