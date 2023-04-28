@@ -1,0 +1,21 @@
+Team Moose Kickers:: Gordon Mo, Hui Wang
+SoftDev PD7
+K33 -- JS Bubble and Capture
+2023-04-27
+
+bubble and capture both refer to ways that events are propagated.
+Bubbling is when you propagate from inner to outermost element.
+Capture is when you propagate from outermost to inner element.
+
+DISCO
+-----------------------------------------------------------------
+* Bubbling is the default way to propagate events. 
+* stopPropagation allows for only the highest priority event
+* setting useCapture to true, the event captured propagates from its outer to innermost element
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Can you use both bubbling and capturing at the same?
+* Is there a stopPropagation for two events?
+=================================================================
